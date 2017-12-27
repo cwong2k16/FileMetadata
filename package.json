@@ -1,0 +1,23 @@
+{
+  "name": "filemetadata",
+  "version": "1.0.0",
+  "description": "microservice that displays the number of bytes in a selected file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwong2k16/FileMetadata.git"
+  },
+  "author": "Christopher Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwong2k16/FileMetadata/issues"
+  },
+  "homepage": "https://github.com/cwong2k16/FileMetadata#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}

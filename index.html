@@ -6,13 +6,13 @@
         </title>
     </head>
     <body>
-        <form action="/" method="post">
+        <form method="post" enctype="multipart/form-data", action = "/upload" required>
             <div>
               <label for="file">Upload a file here</label>
-              <input type = "file" name="file" id="file" value="Hi">
+              <input type = "file" name="file" id="file">
             </div>
             <div>
-              <button id = "upload">Upload file</button>
+              <button>Upload file</button>
             </div>
           </form>
     </body>
